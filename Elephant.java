@@ -16,6 +16,7 @@ public class Elephant extends Actor
         else if (Greenfoot.isKeyDown("right")) {
             move(1); 
         }
+        eat();
     }
     
     /**
