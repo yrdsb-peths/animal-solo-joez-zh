@@ -14,7 +14,10 @@ public class Elephant extends Actor
             move(-1);
         }
         else if (Greenfoot.isKeyDown("right")) {
-            move(1);
+            move(1); 
         }
+        
+        // removes apples when it touches the elephant
+        removeTouching(Apple.class);
     }
 }
