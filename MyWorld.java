@@ -13,7 +13,16 @@ public class MyWorld extends World {
         Elephant elephant = new Elephant();
         addObject(elephant, 300, 200);
         
+        createApple();
+    }
+    
+    /**
+     * Creates a new apple at a random location at the top of the screen
+     */
+    public void createApple() {
         Apple apple = new Apple();
-        addObject(apple, 300, 0);
+        int x = Greenfoot.getRandomNumber(600);
+        int y = 0;
+        addObject(apple, x, y);
     }
 }
