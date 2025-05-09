@@ -11,7 +11,7 @@ public class TitleScreen extends World
 {
     Label titleLabel = new Label("Hungry Elephant", 60);
     
-    Label instructionlabel = new Label("Use  <- and -> to move", 35);
+    Label instructionlabel = new Label("Use  \u2190 and \u2192 to move", 35);
     Label startLabel = new Label("Press spacebar to start", 35);
     
     public TitleScreen()
